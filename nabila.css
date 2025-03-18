@@ -1,0 +1,42 @@
+body {
+  font-family:'Arial Narrow';
+  background-color: #f7f8fa;
+  color: #01070e;
+}
+
+h1 {
+  color: #0c0701;
+  text-shadow: 7px 7px 7px rgb(231, 234, 186);
+}
+
+a {
+  color: #f8c90e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f18f17;
+  font-size: 20px;
+  text-shadow: 7px 4px 7px rgb(252, 212, 183);
+  font-weight: bold;
+}
+
+
+ul > li {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul li:hover {
+  color: #f3832d;
+  text-shadow: 7px 7px 7px rgb(251, 232, 192);
+  font-size: 25px;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #fe8f19;
+}
+
+
+
